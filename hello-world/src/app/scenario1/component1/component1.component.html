@@ -1,17 +1,13 @@
-<p>heyys</p>
 <form [formGroup]="formVar" (ngSubmit)="onSubmit()">
-  <ul>
-      <li>
-          <label fixed>Username</label>
-          <input ngModel type="text" formControlName="username">
-      </li>
-
-      <li>
-          <label fixed>Password</label>
-          <input ngModel type="password" formControlName="password">
-      </li>    
-
-      <button color="secondary" type="submit" full>Login</button>
-
-  </ul>
+    <ul>
+        <li>
+            <label fixed>Username</label>
+            <input ngModel type="text" formControlName="username">
+        </li>
+        <li>
+            <label fixed>Password</label>
+            <input ngModel type="password" formControlName="password">
+        </li>
+        <button color="secondary" type="submit" full>Login</button>
+    </ul>
 </form>

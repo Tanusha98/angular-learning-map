@@ -1,0 +1,9 @@
+<form [formGroup]="formVar">
+  <ul>
+    <li>
+      <label fixed>Enter value: </label>
+      <input ngModel type="text" formControlName="value">
+      <p>value is {{formVar.value['value']}}</p>
+    </li>
+  </ul>
+</form>
